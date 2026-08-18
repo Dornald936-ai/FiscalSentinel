@@ -1,0 +1,13 @@
+fastapi==0.141.1
+uvicorn[standard]==0.52.3
+pandas==3.0.5
+numpy==2.5.2
+scikit-learn==1.9.0
+statsmodels==0.14.6
+scipy==1.18.0
+python-dotenv==1.2.3
+httpx==0.28.1
+
+# Optional - only used by backend/brief.py when ANTHROPIC_API_KEY is set.
+# The brief endpoint falls back to a deterministic template without it.
+anthropic==0.122.0
